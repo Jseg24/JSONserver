@@ -1,23 +1,23 @@
 {
   "burgers": [
     {
-      "id": "classic-beef",
-      "title": "Classic Beef Burger",
+      "id": "classic-burger",
+      "title": "Classic Burger",
       "steps": [
         {
-          "instruction": "Choose your bun",
+          "instruction": "Pick your bun",
           "options": ["Sesame", "Brioche", "Lettuce Wrap"]
         },
         {
-          "instruction": "Choose your protein",
-          "options": ["Beef", "Chicken", "Plant-based"]
+         "instruction": "How what kind of protein?",
+          "options": ["Beef", "Chicken", "Turkey"]
         },
         {
           "instruction": "Add toppings",
           "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
         },
         {
-          "instruction": "Select sauce",
+          "instruction": "Choose sauce",
           "options": ["Ketchup", "Mayo", "Spicy Chipotle"]
         },
         {
@@ -27,16 +27,16 @@
       ]
     },
     {
-      "id": "grilled-chicken",
-      "title": "Grilled Chicken Burger",
+      "id": "krabby-patty",
+      "title": "Krabby Patty",
       "steps": [
         {
           "instruction": "Pick your bun",
-          "options": ["Wheat", "Brioche", "Lettuce Wrap"]
+          "options": ["Sesame", "Brioche", "Lettuce Wrap"]
         },
         {
-          "instruction": "Select your protein",
-          "options": ["Grilled Chicken", "Crispy Chicken"]
+          "instruction": "How what kind of protein?",
+          "options": ["Crab", "Veggie Patty"]
         },
         {
           "instruction": "Add toppings",
@@ -44,7 +44,7 @@
         },
         {
           "instruction": "Choose sauce",
-          "options": ["Honey Mustard", "Ranch"]
+          "options": ["Mayo", "Ranch", "Ketchup"]
         },
         {
           "instruction": "Extras",
@@ -54,3 +54,4 @@
     }
   ]
 }
+
