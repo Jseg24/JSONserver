@@ -39,7 +39,7 @@
           "options": ["Sesame", "Brioche", "Lettuce Wrap"]
         },
         {
-          "instruction": "How what kind of protein?",
+          "instruction": "What kind of protein?",
           "options": ["Crab", "Veggie Patty"]
         },
         {
@@ -48,7 +48,7 @@
         },
         {
           "instruction": "Choose sauce",
-          "options": ["Mayo", "Ranch", "Ketchup"]
+          "options": ["Mayo", "Ranch", "Ketchup"],
            "feedback":{
             "condition":"choice === 'Ranch' && selections.includes('Crab')",
             "message": "Ew, ranch on a Krabby Patty? Do better!"
