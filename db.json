@@ -5,18 +5,29 @@
       "title": "Classic Burger",
       "steps": [
         {
+          "id": "step1",
+          "type": "multiple-choice",
           "instruction": "Pick your bun",
           "options": ["Sesame", "Brioche", "Lettuce Wrap"]
         },
         {
-         "instruction": "How what kind of protein?",
+          "id": "step2",
+          "type": "multiple-choice",
+         "instruction": "What kind of protein?",
           "options": ["Beef", "Chicken", "Turkey"]
         },
+         {
+          "id": "step3",
+          "type": "text",
+          "instruction": "How many sauce servings?",
+          "feedback": {
+            "condition": "amount>3",
+            "message": "Too much sauce might overpower the flavor!"
+          }
+         },
         {
-          "instruction": "Add toppings",
-          "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
-        },
-        {
+          "id": "step4",
+          "type": "multiple-choice",
           "instruction": "Choose sauce",
           "options": ["Ketchup", "Mayo", "Spicy Chipotle"],
           "feedback":{
@@ -25,6 +36,8 @@
           }
         },
         {
+          "id": "step5",
+          "type": "multiple-choice",
           "instruction": "Choose extras",
           "options": ["Cheese", "Bacon", "Double Patty"]
         }
@@ -35,18 +48,29 @@
       "title": "Krabby Patty",
       "steps": [
         {
+          "id": "step1",
+          "type": "multiple-choice",
           "instruction": "Pick your bun",
           "options": ["Sesame", "Brioche", "Lettuce Wrap"]
         },
         {
+          "id": "step2",
+          "type": "multiple-choice",
           "instruction": "What kind of protein?",
           "options": ["Crab", "Veggie Patty"]
         },
         {
-          "instruction": "Add toppings",
-          "options": ["Lettuce", "Tomato", "Onion"]
+           "id": "step3",
+          "type": "text",
+          "instruction": "How many sauce servings?",
+          "feedback": {
+            "condition": "amount>3",
+            "message": "Too much sauce might make your Krabby Patty soggy!"
+          }
         },
         {
+          "id": "step4",
+          "type": "multiple-choice",
           "instruction": "Choose sauce",
           "options": ["Mayo", "Ranch", "Ketchup"],
            "feedback":{
@@ -55,6 +79,8 @@
           }
         },
         {
+          "id": "step5",
+          "type": "multiple-choice",
           "instruction": "Extras",
           "options": ["Cheese", "Bacon"]
         }
