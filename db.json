@@ -31,7 +31,8 @@
           "instruction": "Choose sauce",
           "options": ["Ketchup", "Mayo", "Spicy Chipotle"],
           "feedback":{
-            "condition":"choice === 'Spicy Chipotle' && selections.includes('Brioche')",
+            "badChoice1": "Spicy Chipotle",
+            "badChoice2": "Brioche",
             "message": "Spicy Chipotle with a Brioche is a horrible combo!"
           }
         },
@@ -74,7 +75,8 @@
           "instruction": "Choose sauce",
           "options": ["Mayo", "Ranch", "Ketchup"],
            "feedback":{
-            "condition":"choice === 'Ranch' && selections.includes('Crab')",
+            "badChoice1": "Ranch",
+            "badChoice2": "Crab",
             "message": "Ew, ranch on a Krabby Patty? Do better!"
           }
         },
